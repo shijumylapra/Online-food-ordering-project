@@ -10,11 +10,11 @@ namespace Online_food_ordering.Models
     public class SubCategory
     {
         [Key]
-        public int Id { get; set; }
-        public string Title {  get; set; }
+        public int id { get; set; }
+        public string title {  get; set; }
 
-        public int CategoryID {  get; set; }
-        public Category Category { get; set; }
+        public int categoryID {  get; set; }
+        public Category category { get; set; }
         
 
     }

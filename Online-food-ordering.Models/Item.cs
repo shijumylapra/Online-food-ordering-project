@@ -8,15 +8,15 @@ namespace Online_food_ordering.Models
 {
     public class Item
     {
-        public int Id { get; set; }public string Title { get; set; }
-        public string Description { get; set; }
-        public double Price { get; set; }
+        public int id { get; set; }public string Title { get; set; }
+       
+        public string description { get; set; }
+        public double price { get; set; }
+        public int categoryID { get; set; }
+        public Category category { get; set; }
 
-        public int CategoryID { get; set; }
-        public Category Category { get; set; }
-
-        public int SubCategoryID { get; set; }
-        public SubCategory SubCategory { get; set; }
+        public int subCategoryID { get; set; }
+        public SubCategory subCategory { get; set; }
 
 
     }

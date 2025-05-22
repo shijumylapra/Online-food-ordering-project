@@ -10,10 +10,10 @@ namespace Online_food_ordering.Models
     public class Category
     {
         [Key]
-            public int Id { get; set; }
+            public int id { get; set; }
 
         [Required]
-        public string Title { get; set; }
+        public string title { get; set; }
         
     }
 }
